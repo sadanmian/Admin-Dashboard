@@ -13,6 +13,7 @@ import {
   TrendingUp,
   WorkOutline,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -38,14 +39,18 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <PermIdentity className="sidebarIcon" />
-              <span className="sidebarIconText">Users</span>
-            </li>
-            <li className="sidebarListItem">
-              <Storefront className="sidebarIcon" />
-              <span className="sidebarIconText">Products</span>
-            </li>
+            <Link to={"/users"} className="link">
+              <li className="sidebarListItem">
+                <PermIdentity className="sidebarIcon" />
+                <span className="sidebarIconText">Users</span>
+              </li>
+            </Link>
+            <Link to={"/products"} className="link">
+              <li className="sidebarListItem">
+                <Storefront className="sidebarIcon" />
+                <span className="sidebarIconText">Products</span>
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />
               <span className="sidebarIconText">Transactions</span>
