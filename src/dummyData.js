@@ -48,6 +48,20 @@ export const userData = [
     "Active User": 900,
   },
 ];
+export const productData = [
+  {
+    name: "Jan",
+    Sales: 43000,
+  },
+  {
+    name: "Feb",
+    Sales: 29000,
+  },
+  {
+    name: "Mar",
+    Sales: 70000,
+  },
+];
 
 export const userRows = [
   {
