@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Admin Dashboard](./public/home.png)
 
-## Available Scripts
+Welcome to the Admin Dashboard project! This repository contains a responsive admin dashboard built using React. It provides an interface for managing users and products, offering functionalities such as creating, editing, and deleting users and products.
 
-In the project directory, you can run:
+To access the website, click on the [Home Page](https://sadanmian.github.io/Admin-Dashboard/) link.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive design that adapts to various screen sizes.
+- User Page:
+  - Create a new user.
+  - Edit user details.
+  - Delete a user.
+- Product Page:
+  - Create a new product.
+  - Edit product details.
+  - Delete a product.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+To use the Admin Dashboard, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Visit the [Home Page](https://sadanmian.github.io/Admin-Dashboard/).
+2. Click on the navigation links to access the User Page or Product Page.
+3. On the User Page:
+   - Create a new user by clicking the "Create User" button.
+     [Admin Dashboard](./public/createUser.png)
+   - Edit user details by clicking the "Edit" button on a user card.
+     [Admin Dashboard](./public/editUser.png)
+   - Delete a user by clicking the "Delete" button on a user card.
+     [Admin Dashboard](./public/user.png)
+4. On the Product Page:
+   - Create a new product by clicking the "Create Product" button.
+     [Admin Dashboard](./public/createProduct.png)
+   - Edit product details by clicking the "Edit" button on a product card.
+     [Admin Dashboard](./public/editProduct.png)
+   - Delete a product by clicking the "Delete" button on a product card.
+     [Admin Dashboard](./public/product.png)
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the Admin Dashboard locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/sadanmian/Admin-Dashboard.git
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd Admin-Dashboard
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+1. After installing the dependencies, you can start the development server by running:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   This will start the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Code Splitting
+2. Navigate through the different pages using the navigation links and explore the functionalities.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Folder Structure
 
-### Analyzing the Bundle Size
+The project's folder structure is organized as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+Admin-Dashboard/
+├── public/
+└── src/
+    ├── assets/
+    ├── components/
+    ├── pages/
+    ├── App.js
+    ├── index.js
+    └── ...
+```
 
-### Making a Progressive Web App
+- `public/`: Contains static assets that are directly copied to the build folder.
+- `src/assets/`: Includes images and other assets used in the project.
+- `src/components/`: Contains reusable components used throughout the application.
+- `src/pages/`: Contains the main pages of the application, such as User Page and Product Page.
+- `App.js`: The main component that defines the application's structure.
+- `index.js`: The entry point of the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you find any issues or want to enhance the project, feel free to create pull requests.
