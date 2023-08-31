@@ -26,18 +26,18 @@ To use the Admin Dashboard, follow these steps:
 2. Click on the navigation links to access the User Page or Product Page.
 3. On the User Page:
    - Create a new user by clicking the "Create User" button.
-     [Admin Dashboard](./public/createUser.png)
+     ![Create a new User](./public/createUser.png)
    - Edit user details by clicking the "Edit" button on a user card.
-     [Admin Dashboard](./public/editUser.png)
+     ![Edit User Details](./public/editUser.png)
    - Delete a user by clicking the "Delete" button on a user card.
-     [Admin Dashboard](./public/user.png)
+     ![Delete User](./public/user.png)
 4. On the Product Page:
    - Create a new product by clicking the "Create Product" button.
-     [Admin Dashboard](./public/createProduct.png)
+     ![Create Product](./public/createProduct.png)
    - Edit product details by clicking the "Edit" button on a product card.
-     [Admin Dashboard](./public/editProduct.png)
+     ![Edit Product](./public/editProduct.png)
    - Delete a product by clicking the "Delete" button on a product card.
-     [Admin Dashboard](./public/product.png)
+     ![Delete Product](./public/product.png)
 
 ## Installation
 
